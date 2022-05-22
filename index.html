@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Snowflake generator</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Чисто Canvas</title>
+		<link rel = "stylesheet" href = "style.css">
+		<script src = "interface.js" defer></script>
+		<script src = "dinamic.js" defer></script>
+	</head>
+	<body bgcolor = "#002">
+		<div align = "center">
+			<canvas width = "800px" height = "600px" style = "border: 1px solid white"></canvas>
+		</div>
+		<div class = "inputs">
+			<b>Size:</b><input onmouseup = "correct()" oninput = "chooseSize()" id = "size" step = "0.1" min = "1" max = "40" value = "7" type = "range"><br>
+			<b>Fuzziness:</b><input oninput = "chooseFurry()" id = "furry" min = "0" max = "40" value = "2" type = "range"><br>
+			<b>Amount:</b><input oninput = "chooseCount()" id = "count" min = "0" max = "100" value = "20" type = "range"><br>
+			<b>Speed:</b><input oninput = "chooseSpeed()" id = "speed" step = "0.1" min = "0" max = "10" value = "1" type = "range"><br>
+		</div>
+	</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
